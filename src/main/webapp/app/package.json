@@ -47,7 +47,7 @@
         "dijit":"~1.9.2",
         "dojox":"~1.9.2"
     },
-    "main":"src",
+    "main":"src/main/webapp",
     "homepage":"https://github.com/LarryChen1990/",
     "dojoBuild":"app.profile.js"
 }

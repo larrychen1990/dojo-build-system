@@ -1,11 +1,12 @@
+var t="dfdfrd";
 var profile=(function(){
 	var testResource=/^app\/tests\//,
 	//checks if mid is in app/tests directory
 		copyOnly=function(filename,mid){
 			var list={
-					"app/app.profile":true,
+					"app/tests/tests.profile":true,
 					//we shouldn't touch our profile
-					"app/package.json":true
+					"app/tests/package.json":true
 					//we shouldn't touch our package.json
 			};
 			return (mid in list)||
@@ -15,6 +16,15 @@ var profile=(function(){
 			// Check if it is one of the special files, if it is in
             // app/resource (but not CSS) or is an image
 		};
+		
+		var person={
+				"hasName":true,
+				"age":24
+		};
+		var n="hasName";
+		console.log(copyOnly("app/tests/tests.profile","app/tests/test.profile"));
+		console.log(testResource);
+		console.log(n in person);
 	
 	return {
 		resourceTags:{
@@ -22,10 +32,12 @@ var profile=(function(){
 				return testResource.test(mid)||mid=="app/tests";
 				// Tag our test files
 			},
+			
 			copyOnly:function(filename,mid){
 				return copyOnly(filename,mid);
 				// Tag our copy only files
 			},
+			
 			amd:function(/*String*/filename,/*Module ID*/mid){
 				return !testResource.test(mid)
 						&& !copyOnly(filename,mid)
