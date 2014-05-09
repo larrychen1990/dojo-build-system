@@ -17,15 +17,6 @@ var profile=(function(){
             // app/resource (but not CSS) or is an image
 		};
 		
-		var person={
-				"hasName":true,
-				"age":24
-		};
-		var n="hasName";
-		console.log(copyOnly("app/tests/tests.profile","app/tests/test.profile"));
-		console.log(testResource);
-		console.log(n in person);
-	
 	return {
 		resourceTags:{
 			test:function(filename,mid){
