@@ -1,3 +1,36 @@
 {
-	
+	"name":"app",
+	"description":"My Second App",
+	"version":"1.0",
+	"keywords":["JavaScript","Dojo","Toolkit","Dojox"],
+	"maintainers":[
+		{
+		"name":"Larry Chen"
+		},{
+		"name":"Terry Song"		
+		}
+	],
+	"contributors":[
+		{
+		"name":"Henry Wang"
+		},{
+		"name":"Rhon Simth"
+		}
+	],
+	"licenses":[
+		{
+			"type":"AFLv2.1",
+			"url":"http://bugs.dojotoolkit.org/browser/dojox/trunk/LICENSE#L43"
+		},{
+			"type":"BSD",
+			"url":"http://bugs.dojotoolkit.org/browser/dojox/trunk/LICENSE#L13"
+		}
+	],
+	"bugs":"",
+	"":"",
+	"":"",
+	"":"",
+	"":"",
+	"":"",
+	"":"",
 }
