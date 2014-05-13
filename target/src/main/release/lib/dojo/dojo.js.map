@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"dojo.js",
+"lineCount":2,
+"mappings":"A,SAACA,e,EAAmBC,a,EAAiBC,Y,yBAGjC,uB,QACA,yB,GACA,Y,GACA,a,SAEA,c,+PAgCA;SAAA,OAECA,EAAUA,YAEdA,EAAA,YAJG,EAKFA,CAAAC,MALE,EAKeD,CAAA,UAClBA,EAAAE,KANG,EAMaF,CAAAG,MAAA,MAAoBH,CAAAE,KAApB,CANb,EAAA;",
+"sources":["dojo.js.uncompressed.js"],
+"names":["dojoConfig","djConfig","require","async","boot","apply"]
+}

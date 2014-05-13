@@ -3,9 +3,9 @@ var profile=(function(){
 	//checks if mid is in app/tests directory
 		copyOnly=function(filename,mid){
 			var list={
-					"app/app.profile":true,
+					"app/tests/tests.profile":true,
 					//we shouldn't touch our profile
-					"app/package.json":true
+					"app/tests/package.json":true
 					//we shouldn't touch our package.json
 			};
 			return (mid in list)||
@@ -15,17 +15,19 @@ var profile=(function(){
 			// Check if it is one of the special files, if it is in
             // app/resource (but not CSS) or is an image
 		};
-	
+		
 	return {
 		resourceTags:{
 			test:function(filename,mid){
 				return testResource.test(mid)||mid=="app/tests";
 				// Tag our test files
 			},
+			
 			copyOnly:function(filename,mid){
 				return copyOnly(filename,mid);
 				// Tag our copy only files
 			},
+			
 			amd:function(/*String*/filename,/*Module ID*/mid){
 				return !testResource.test(mid)
 						&& !copyOnly(filename,mid)
@@ -54,8 +56,3 @@ var profile=(function(){
 //	
 //	miniExclude
 //	The resource should not be copied to the destination if the profile property mini is truthy.
-
-
-
-
-

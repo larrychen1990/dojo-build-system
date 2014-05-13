@@ -1,0 +1,48 @@
+Build started: Mon May 12 2014 11:33:10 GMT+0800 (CST)
+Build application version: 1.9.2 (NaN)
+Messages:
+info(102) Optimizing module
+	module: dojo/dojo
+	module: app/Dialog
+warn(209) Missing or empty package.json.
+	filename: C:/Users/DC90726/workspace/dojo-build-system/target/src/main/webapp/dojo/dojox/package.json
+	filename: C:/Users/DC90726/workspace/dojo-build-system/target/src/main/webapp/dojo/dijit/package.json
+	filename: C:/Users/DC90726/workspace/dojo-build-system/target/src/main/webapp/app/package.json
+	filename: C:/Users/DC90726/workspace/dojo-build-system/target/src/main/webapp/dojo/dojo/package.json
+	filename: C:/Users/DC90726/workspace/dojo-build-system/target/src/main/webapp/dojo/dgrid-1.0/package.json
+	filename: C:/Users/DC90726/workspace/dojo-build-system/target/src/main/webapp/dojo/gridx/package.json
+	filename: C:/Users/DC90726/workspace/dojo-build-system/target/src/main/webapp/dojo/util/package.json
+warn(225) A directory that was scheduled to be read during discovery did not exist.
+	directory: C:/Users/DC90726/workspace/dojo-build-system/target/src/main/webapp/dojo/dojox
+	directory: C:/Users/DC90726/workspace/dojo-build-system/target/src/main/webapp/dojo/dojox
+	directory: C:/Users/DC90726/workspace/dojo-build-system/target/src/main/webapp/dojo/dijit
+	directory: C:/Users/DC90726/workspace/dojo-build-system/target/src/main/webapp/dojo/dijit
+	directory: C:/Users/DC90726/workspace/dojo-build-system/target/src/main/webapp/app
+	directory: C:/Users/DC90726/workspace/dojo-build-system/target/src/main/webapp/app
+	directory: C:/Users/DC90726/workspace/dojo-build-system/target/src/main/webapp/dojo/dojo
+	directory: C:/Users/DC90726/workspace/dojo-build-system/target/src/main/webapp/dojo/dojo
+	directory: C:/Users/DC90726/workspace/dojo-build-system/target/src/main/webapp/dojo/dgrid-1.0
+	directory: C:/Users/DC90726/workspace/dojo-build-system/target/src/main/webapp/dojo/dgrid-1.0
+	directory: C:/Users/DC90726/workspace/dojo-build-system/target/src/main/webapp/dojo/gridx
+	directory: C:/Users/DC90726/workspace/dojo-build-system/target/src/main/webapp/dojo/gridx
+	directory: C:/Users/DC90726/workspace/dojo-build-system/target/src/main/webapp/dojo/util
+	directory: C:/Users/DC90726/workspace/dojo-build-system/target/src/main/webapp/dojo/util
+error(303) Missing include module for layer.
+	missing: dojo/dojo/dojo; layer: dojo/dojo
+	missing: dojo/dojo/i18n; layer: dojo/dojo
+	missing: dojo/dojo/domReady; layer: dojo/dojo
+	missing: app/main; layer: dojo/dojo
+	missing: app/run; layer: dojo/dojo
+Layer Contents:
+app/Dialog:
+	app/Dialog
+
+dojo/dojo:
+	dojo/dojo
+
+
+
+Process finished normally
+	errors: 5
+	warnings: 21
+	build time: 0.919 seconds
